@@ -32,6 +32,12 @@ A notebook analyzing completed orders, customer spend, product and shipping reve
 
 **Stack:** Python · pandas · NumPy · Matplotlib · Seaborn
 
+### [PostgreSQL Homework Lab](https://github.com/anna-siniavskaia/postgresql-homework)
+
+An executable SQL lab built from three course assignments. It includes PostgreSQL schemas, fictional sample rows, query examples, the original reports, and database checks for row counts and overlapping restaurant reservations.
+
+**Stack:** PostgreSQL · SQL · Docker Compose
+
 ## Interests
 
 Language technologies, data quality, analytical systems, and responsible data handling.
