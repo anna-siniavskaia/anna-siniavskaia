@@ -16,6 +16,10 @@ I work with language data and am building a stronger foundation in data engineer
 
 Currently learning: `ETL/ELT` · `Apache Airflow` · `Apache Spark` · `Apache Kafka`
 
+## Currently building
+
+**Learning Events Warehouse** — a reproducible MySQL-to-PostgreSQL pipeline for deterministic synthetic learning events. It uses incremental watermarks, idempotent loads, a dimensional mart, late-event handling, rollback checks, and exact metric reconciliation. The private release is undergoing its final verification.
+
 ## Selected projects
 
 ### [Es Español Fácil](https://github.com/anna-siniavskaia/es-espanol-facil)
