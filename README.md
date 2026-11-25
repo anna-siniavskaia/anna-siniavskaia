@@ -18,7 +18,7 @@ Currently learning: `ETL/ELT` · `Apache Airflow` · `Apache Spark` · `Apache K
 
 ## Currently building
 
-**Learning Events Warehouse** — a reproducible MySQL-to-PostgreSQL pipeline for deterministic synthetic learning events. It uses incremental watermarks, idempotent loads, a dimensional mart, late-event handling, rollback checks, and exact reconciliation of daily and CEFR-level metrics. Its 26-test local suite now covers successful fixtures and metric drift; the private release is undergoing final verification.
+**[Learning Events Warehouse](https://github.com/anna-siniavskaia/learning-events-warehouse)** — a privately published MySQL-to-PostgreSQL pipeline for deterministic synthetic learning events. It uses incremental watermarks, idempotent loads, a dimensional mart, late-event handling, rollback checks, exact daily and CEFR-level reconciliation, and a machine-readable health snapshot. All 29 Docker tests and the complete hosted CI workflow pass.
 
 ## Selected projects
 
