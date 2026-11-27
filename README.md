@@ -20,7 +20,7 @@ Currently learning: `ETL/ELT` · `Apache Airflow` · `Apache Spark` · `Apache K
 
 ### [Learning Events Warehouse](https://github.com/anna-siniavskaia/learning-events-warehouse)
 
-An incremental MySQL-to-PostgreSQL warehouse built from deterministic, fictional learning events. It uses a transactional source-ID watermark, idempotent event loading, dimensional models, reconciliation checks, late-event verification, rollback recovery, and a JSON health report.
+An incremental MySQL-to-PostgreSQL warehouse built from deterministic, fictional learning events. It uses a transactional source-ID watermark, idempotent loading, dimensional models, late-event handling, rollback recovery, and a JSON health report. All 29 Docker checks and the hosted CI workflow verify fresh builds, replay, and exact daily and CEFR-level reconciliation.
 
 **Stack:** Python · MySQL · PostgreSQL · Docker Compose · GitHub Actions
 
