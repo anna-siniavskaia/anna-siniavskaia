@@ -12,11 +12,37 @@ I work with language data and am building a stronger foundation in data engineer
 
 ## Focus
 
-`Python` · `SQL` · `MySQL` · `PostgreSQL` · `PHP` · `JavaScript` · `Text processing`
+`Python` · `SQL` · `PostgreSQL` · `MySQL` · `DuckDB` · `Docker` · `GitHub Actions` · `Text processing`
 
 Currently learning: `ETL/ELT` · `Apache Airflow` · `Apache Spark` · `Apache Kafka`
 
-## Selected projects
+## Data Engineering projects
+
+### [Learning Events Warehouse](https://github.com/anna-siniavskaia/learning-events-warehouse)
+
+An incremental MySQL-to-PostgreSQL warehouse built from deterministic, fictional learning events. It uses a transactional source-ID watermark, idempotent event loading, dimensional models, reconciliation checks, late-event verification, rollback recovery, and a JSON health report.
+
+**Stack:** Python · MySQL · PostgreSQL · Docker Compose · GitHub Actions
+
+### [Retail Orders Parquet Lakehouse](https://github.com/anna-siniavskaia/retail-parquet-lakehouse)
+
+A bronze/silver/gold DuckDB and Parquet pipeline for synthetic order-change events. It includes JSON Schema validation, quarantine, digest-based replay protection, partition-aware publishing, recovery after interrupted exports, metric reconciliation, and reproducible performance checks.
+
+**Stack:** Python · DuckDB · Parquet · Docker Compose · GitHub Actions
+
+### [Electronic Sales Analysis](https://github.com/anna-siniavskaia/electronics-sales-analysis)
+
+A tested command-line pipeline for cleaning customer orders and producing revenue, add-on, shipping, customer, and cohort tables. The source dataset stays outside Git; synthetic tests verify the cleaning and metric logic independently. The optional notebook contains no Google Colab setup.
+
+**Stack:** Python · pandas · NumPy · Matplotlib · Seaborn
+
+## SQL and application projects
+
+### [PostgreSQL Homework Lab](https://github.com/anna-siniavskaia/postgresql-homework)
+
+Executable PostgreSQL implementations of five course assignments, with real tables, fictional sample rows, queries, constraints, views, recursive CTEs, JSONB exercises, and database-level verification.
+
+**Stack:** PostgreSQL · SQL · Docker Compose
 
 ### [Es Español Fácil](https://github.com/anna-siniavskaia/es-espanol-facil)
 
@@ -25,18 +51,6 @@ A Spanish-learning web application with a CEFR placement test, graded reading, g
 The supplied seed data contains 50 texts, 50 grammar topics, 300 vocabulary entries, and 535 exercises. The seed and hero image are excluded from Git while distribution rights are reviewed.
 
 **Stack:** PHP · MySQL · JavaScript · Docker
-
-### [Electronic Sales Analysis](https://github.com/anna-siniavskaia/electronics-sales-analysis)
-
-A notebook analyzing completed orders, customer spend, product and shipping revenue, add-on sales, and customer cohorts. It documents cleaning decisions and data limitations. The source CSV is not included, and the notebook has not been re-executed for this portfolio copy.
-
-**Stack:** Python · pandas · NumPy · Matplotlib · Seaborn
-
-### [PostgreSQL Homework Lab](https://github.com/anna-siniavskaia/postgresql-homework)
-
-An executable SQL lab built from three course assignments. It includes PostgreSQL schemas, fictional sample rows, query examples, the original reports, and database checks for row counts and overlapping restaurant reservations.
-
-**Stack:** PostgreSQL · SQL · Docker Compose
 
 ## Interests
 
